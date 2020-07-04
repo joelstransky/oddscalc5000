@@ -1,10 +1,7 @@
-﻿using System;
-namespace OddsCalc5000
+﻿namespace OddsCalc5000
 {
     public class Odds
     {
-        public Odds()
-        {
-        }
+        public string odds_input { get; set; }
     }
 }

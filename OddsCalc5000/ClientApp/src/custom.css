@@ -1,14 +1,32 @@
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+body {
+  background-color: #02eebb;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-weight: 900;
+  font-size: 3em;
+}
+form {
+  text-align: center;
 }
 
-code {
-  color: #E01A76;
+.jumbotron {
+  background-color: transparent;
 }
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.calc {
+  text-align: center;
+  width: 560px;
+}
+.result {
+  color: #ffffff;
+  display: flex;
+  font-weight: 900;
+  font-size: 4em;
+}
+.result:before {
+  content: "=";
+  display: flex;
+  margin-right: 0.25em;
 }
